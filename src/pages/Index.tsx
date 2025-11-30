@@ -100,7 +100,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="text-6xl font-bold text-primary mb-4 drop-shadow-lg">
-            🦫 Бобр-Дровосек 🪵
+            🦫 Beaver Ton 🪵
           </h1>
           <div className="flex justify-center gap-8 mb-6">
             <Card className="px-6 py-3 bg-accent border-4 border-primary">
