@@ -143,19 +143,16 @@ const Index = () => {
           <TabsContent value="game" className="space-y-6">
             <Card className="p-8 bg-gradient-to-br from-amber-100 to-green-100 border-4 border-primary">
               <div className="text-center">
-                <div className="mb-6 relative">
-                  <button
+                <div className="mb-6">
+                  <Button
+                    size="lg"
                     onClick={handleChop}
-                    className={`transition-all cursor-pointer bg-transparent border-none p-0 ${
+                    className={`text-8xl w-64 h-64 rounded-full bg-gradient-to-br from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 border-8 border-amber-900 shadow-2xl transition-all ${
                       isShaking ? 'animate-shake' : 'hover:scale-105'
                     }`}
                   >
-                    <img 
-                      src="https://cdn.poehali.dev/files/db26e5e7-d38a-4b7d-ab27-e428e55218e8.jpg" 
-                      alt="Beaver chopping"
-                      className="w-80 h-auto rounded-2xl shadow-2xl"
-                    />
-                  </button>
+                    🌳
+                  </Button>
                 </div>
                 <h2 className="text-4xl font-bold text-primary mb-2">
                   Руби дерево!
